@@ -30,11 +30,12 @@ class Friend(Person):
     def introduce2(self):
         print(f"привет меня зовут {self.name}, я друг Бекназара, Я родился {self.birth_date}, мое хобби {self.hobby}, работаю {self.occupation} ")
 friend1 = Friend("Давид", "27 августа 2009", "кассиром", False, "баскетбол")
-friend2 = Friend("Саит", "21 сентября 2009", "портным", False, "видеоигры")
+friend2 = Friend("Саит",  "21 сентября 2009", "портным", False,  "видеоигры")
 classmate1.introduce1()
 classmate2.introduce1()
 friend1.introduce2()
 friend2.introduce2()
+dfdf
 
 
 
